@@ -13,7 +13,7 @@ public class DuplicateLead extends BaseTest{
 	
 	@BeforeClass
 	public void setFileName() {
-		excelFileName="DeleteLead";
+		excelFileName="DuplicateLead";
 	}
 
 	@Test(dataProvider="fetchData")
